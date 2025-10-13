@@ -1,0 +1,52 @@
+# -----------------------------------------------------------------------------
+# Operating System and IDE Files
+# -----------------------------------------------------------------------------
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains IDEs (IntelliJ, PyCharm, etc.)
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# -----------------------------------------------------------------------------
+# Python / General Build Files
+# -----------------------------------------------------------------------------
+
+# Compiled Python files
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Dependency files
+*.egg-info/
+.coverage
+
+# Build artifacts
+dist/
+build/
+
+# -----------------------------------------------------------------------------
+# General Output & Log Files
+# -----------------------------------------------------------------------------
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
