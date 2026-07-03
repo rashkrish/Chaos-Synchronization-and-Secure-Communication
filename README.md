@@ -12,7 +12,7 @@ Chaos synchronization is treated as a bridge between chaos theory and its practi
 - **Generalized synchronization** — a functional relationship links the trajectories of two non-identical coupled systems; not implemented in `Code/`.
 - **Secure communication** — a message is masked in a chaotic carrier and recovered once the transmitter and receiver synchronize — implemented here for analog and digital signals via complete synchronization, and for a digital signal via phase synchronization.
 
-**Implementation:** all synchronization schemes above are demonstrated numerically for the Lorenz and Rössler systems, with ODE integration by a hand-written 4th-order Runge–Kutta (one notebook cross-checks against `scipy.solve_ivp`). A further notebook checks how much of the transmitting system an eavesdropper could reconstruct from the intercepted signal alone.
+**Implementation:** all synchronization schemes above are demonstrated numerically for the Lorenz and Rössler systems, with ODE integration by a hand-written 4th-order Runge–Kutta (one notebook cross-checks against `scipy.solve_ivp`). A further notebook applies the auxiliary system approach to parameter estimation — checking how closely a copy of the transmitting system, driven only by the intercepted signal, converges onto the sender's true dynamics.
 
 ## Contents
 
