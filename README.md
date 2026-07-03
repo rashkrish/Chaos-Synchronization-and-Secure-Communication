@@ -7,7 +7,7 @@ MSc dissertation (Mathematical and Theoretical Physics, module MAS6600, Universi
 Chaos synchronization is treated as a bridge between chaos theory and its practical applications. The dissertation replicates known results on Complete and Phase Synchronization, then builds Secure Communication models on top of them.
 
 - **Complete (identical) synchronization** — two identical chaotic systems converge to the same trajectory once coupling strength exceeds a critical value, achieved either by directly coupling their state vectors or in a drive–response (master–slave) configuration.
-- **Phase synchronization** — the phases of two coupled chaotic systems lock to a bounded difference while their amplitudes stay uncorrelated and hyper-chaotic.
+- **Phase synchronization** — is the locking of coupled chaotic systems' phases, which leads to frequency entrainment.
 - **Lag synchronization** — the systems reach identical states with a time shift, which shrinks as coupling strength increases; not implemented in `Code/`.
 - **Generalized synchronization** — a functional relationship links the trajectories of two non-identical coupled systems; not implemented in `Code/`.
 - **Secure communication** — a message is masked in a chaotic carrier and recovered once the transmitter and receiver synchronize — implemented here for analog and digital signals via complete synchronization, and for a digital signal via phase synchronization.
